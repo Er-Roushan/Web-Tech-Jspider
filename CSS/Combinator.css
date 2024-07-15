@@ -1,0 +1,21 @@
+/* Combinator selector is used to target elements based on the relation between the elements. */
+
+/* Descendent Selector (Symbol is sapce)*/
+section article h1 {
+    color: red;
+}
+
+section main h2 {
+    color:green;
+}
+
+/* Child selector (Symbol is >)*/
+article > h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main > h2 {
+    font-family: cursive;
+}
+/* Adjacent child sibling (+) */
+/* general sibling ( ~ ) */

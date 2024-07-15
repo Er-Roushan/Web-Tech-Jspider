@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-INPUT</title>
+</head>
+
+<body>
+
+    <h3> Student Details</h3>
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" name="firstname" placeholder="Enter your first name" id="fname" required minlength="3"
+            pattern="[A-z0-9a-z]{4}">
+        <br><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lastname" placeholder="enter your last name" id="lname" required>
+        <br><br>
+
+        Age: <input type="radio" name="age" checked>under 18
+        <input type="radio" name="age">above 18
+        <br><br>
+
+        <label for="cno">Contact No:</label>
+        <input type="number" name="contact no" placeholder="enter contact no." id="cno" required>
+        <br><br>
+
+        <label for="emailid">Email:</label>
+        <input type="email" name="email id" id="emailid" required>
+        <br><br>
+
+        <label for="addr">Address:</label>
+        <input type="text" name="address" id="addr" required>
+        <br><br>
+
+        <!-- <select type="qualification" id="">
+            <option value="b.tech"> B.tech </option>
+            <option value="bsc"> B.sc </option>
+            <option value="b.a"> B.a </option>
+            <option value="b.com"> B.com </option>
+            <option value="i.sc">i.sc </option>
+            <option value="10th" selected> 10th </option>
+        </select>
+        <br> -->
+
+
+        <label for="pass">Password</label>
+        <input type="password" name="password" id="pass" required>
+        <br><br>
+
+        <label for="">Sports:</label>
+        <input type="checkbox" name="intrest" value="cricket" checked>cricket
+        <input type="checkbox" name="intrest" name="Hockey">Hockey<br><br>
+
+        <label for="colour">Choose colour</label>
+        <input type="color" name="choosecolor" id="colour"><br><br>
+
+        <label for="dob">DOB:</label>
+        <input type="date" name="dob" id="dob"><br><br>
+
+        <label for="img">Student Image:</label>
+        <input type="file" name="choosefile"><br><br>
+
+        <label for="exammonth">Exam month:</label>
+        <input type="month" name="exam month" id="exammonth"><br><br>
+
+        <label for="paper">No Of Paper:</label>
+        <input type="number" name="quantity" min="1" max="10" id="paper"> <br><br>
+
+        <label for="rating">Rating:</label>
+        <input type="range" name="rating" min="1" max="5" id="rating"><br><br>
+
+        <label for="search">Search:</label>
+        <input type="search" name="search" id="search"><br><br>
+
+        <!-- Contact No:<input type="text numeric" name="usertel"><br><br> -->
+
+        <label for="btime">Birth Time:</label>
+        <input type="time" name="birthtime" id="btime"><br><br>
+
+        <label for="url">Enter Url:</label>
+        <input type="url" name="enterurl" id="url"><br><br>
+
+        Suggestion:<br>
+        <textarea name="usermessage" rows="10" col="10"> </textarea>
+
+
+
+        <input type="button" value="submit">
+
+        <input type="reset">
+
+
+    </form>
+</body>
+
+</html>
