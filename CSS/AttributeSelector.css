@@ -2,3 +2,15 @@ input[type="text"] {
     width:400px; 
     background-color: red;
 }
+
+a:link{
+    color:rosybrown;
+}
+
+a:visited {
+    color:green;
+}
+
+a:active {
+    color:aqua;
+}
