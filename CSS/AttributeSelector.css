@@ -14,3 +14,45 @@ a:visited {
 a:active {
     color:aqua;
 }
+
+#focus-test{
+    background-color: green;
+}
+
+input[type="password"]:hover{
+    background-color: aqua;
+}
+
+ol li:first-child{
+    color:red;
+}
+
+ol li:last-child{
+    color:brown;
+}
+
+ol li:nth-child(3){
+    color:chocolate;
+}
+
+p::first-letter{
+    font-size: 50px;
+}
+
+p::before{
+    content: "😒";
+}
+p::after{
+    content:"👌";
+}
+p::selection{
+    background-color: lightgreen;
+}
+
+ol li::marker{
+    content:"❤️";
+}
+
+body {
+    background-color: rgba(210, 118, 14, 0.2);
+}
