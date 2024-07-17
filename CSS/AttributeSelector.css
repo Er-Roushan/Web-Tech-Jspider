@@ -56,3 +56,17 @@ ol li::marker{
 body {
     background-color: rgba(210, 118, 14, 0.2);
 }
+
+input[type="text"]:enabled {
+    background-color: green;
+}
+
+section p:first-of-type{
+    color:brown;
+}
+
+section p:last-of-type:hover{
+
+    font-family: cursive;
+
+}
