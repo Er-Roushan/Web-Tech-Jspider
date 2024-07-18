@@ -1,0 +1,56 @@
+.main-container {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: tomato; */
+    /* opacity: 0.2; */
+    justify-content: center;
+}
+
+section div {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+section div:first-child {
+
+    background: conic-gradient(tomato 0deg 135deg, lightgreen 133deg 180deg, orange 180deg 270deg, blue 270deg 360deg);
+}
+
+section div:nth-child(2) {
+
+    background: conic-gradient(tomato 0deg 135deg, lightgreen 135deg 225deg, orange 225deg 360deg);
+}
+
+section div:nth-child(3) {
+
+    background: conic-gradient(tomato 0deg 45deg, lightgreen 45deg 135deg, orange 135deg 180deg, rgb(65, 65, 239) 180deg 360deg);
+}
+
+section div:nth-child(4) {
+
+    background: conic-gradient(tomato 0deg 180deg, lightgreen 180deg 360deg);
+}
+
+section div:nth-child(5) {
+
+    background: conic-gradient(tomato 0deg 90deg, lightgreen 90deg 135deg, orange 135deg 225deg, blue 225deg 270deg, rgb(235, 37, 37) 270deg 360deg);
+}
+
+section div:nth-child(6) {
+
+    background: conic-gradient(tomato 0deg 45deg, lightgreen 45deg 90deg, orange 90deg 270deg, blue 270deg 315deg, tomato 315deg 360deg);
+}
+
+section div:nth-child(7) {
+
+    background: conic-gradient(tomato 0deg 135deg, lightgreen 135deg 180deg, orange 180deg 225deg, tomato 225deg 360deg);
+}
+
+section div:nth-child(8) {
+
+    background: conic-gradient(tomato 0deg 45deg, lightgreen 45deg 90deg, orange 90deg 180deg, blue 180deg 225deg, red 225deg 270deg, skyblue 270deg 360deg);
+}
