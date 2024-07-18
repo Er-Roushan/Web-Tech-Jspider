@@ -17,7 +17,7 @@ section div {
 
 section div:first-child {
 
-    background: conic-gradient(tomato 0deg 135deg, lightgreen 133deg 180deg, orange 180deg 270deg, blue 270deg 360deg);
+    background: conic-gradient(tomato 0deg 135deg, lightgreen 135deg 180deg, orange 180deg 270deg, blue 270deg 360deg);
 }
 
 section div:nth-child(2) {

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+
+.bgimage {
+    background-image: url("bg.jpg");
+    border:2px solid black;
+    height:800px;
+    background-position: center;
+    background-size: cover; 
+
+}
+
+h1{
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family:  "Playwrite HR Lijeva", cursive;
+    font-variant: small-caps;
+}
+
+@font-face {
+    font-family: "Roushan";
+    src: url(Playwrite_HR_Lijeva/PlaywriteHRLijeva-VariableFont_wght.ttf);
+}
+
+h2{
+    font-family: Roushan;
+}
+
+section {
+    width: 300px;
+    height: 300px;
+    margin:500px;
+    box-shadow: 320px 0px 5px red, 0px 320px 5px blue, -320px 0px 5px red, 0px -320px 5px blue, inset 0px 0px 15px pink;
+    border:2px solid black;
+}
+
+ol li{
+ list-style-type: none;
+}
