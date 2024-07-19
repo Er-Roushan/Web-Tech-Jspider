@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Noto+Sans+JP:wght@100..900&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Noto+Sans+JP:wght@100..900&family=Playwrite+BE+VLG:wght@100..400&family=Playwrite+CZ:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maname&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Maname&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+section h1:first-child {
+    font-family:"Edu AU VIC WA NT Hand", cursive;
+}
+
+section h1:nth-child(2){
+    font-family: "Kalnia Glaze", serif;
+}
+section h1:nth-child(3){
+    font-family: "Playwrite BE VLG", cursive;
+}
+section h1:nth-child(4){
+    font-family: "Noto Sans JP", sans-serif;
+}
+section h1:nth-child(5){
+    font-family: "Playwrite CZ", cursive;
+}
+section h1:nth-child(6){
+    font-family: "Playwrite DK Uloopet", cursive;
+}
+section h1:nth-child(7){
+    font-family: "Noto Sans TC", sans-serif;
+}
+section h1:nth-child(8){
+    font-family: "Playwrite AT", cursive;
+}
+section h1:nth-child(9){
+    font-family: "Maname", serif;
+}
+section h1:last-child{
+    font-family: "Dancing Script", cursive;
+}
+
+.shadow {
+    height: 250px;
+    width: 250px;
+    border:1px solid black;
+    margin:0px 500px 800px 0px;
+    
+    box-shadow:  775px 250px 2px tomato, 465px 250px 1px orange, 775px 550px 2px blue, 465px 550px 1px lightgreen, 620px 400px 2px red  ;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.container div{
+    width:270px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 20px;
+    background-image: url("bg.jpg");
+    
+    background-size: 200px auto;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    
+    
+
+}
+
+.container div:first-child{
+    
+    background-color:red;
+    mix-blend-mode: difference;
+}
+
+.container div:nth-child(2){
+    
+    mix-blend-mode: color-burn;
+}
+
+.img-div {
+    width: 400px;
+    height: 300px;
+    border:1px solid grey;
+    background-color: red; 
+    margin:20px;
+}
