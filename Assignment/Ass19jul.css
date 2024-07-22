@@ -37,11 +37,16 @@
     border-left-color: rgb(129, 129, 238);
 
     margin-bottom: 50px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    
 
 }
 
 .card:hover {
     box-shadow: 0px 0px 10px green;
+    transform: scale(1.02, 1.02);
+
 }
 
 .flag {
@@ -60,4 +65,8 @@
 .flag img {
     width: 100%;
     height: auto;
+}
+
+.container::-webkit-scrollbar{
+    display:none;
 }
