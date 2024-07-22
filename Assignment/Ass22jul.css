@@ -1,0 +1,98 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.basket{
+    width: 150px;
+    height: 100px;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    border-bottom: 3px solid ;
+    border-top:3px solid;
+    position:relative;
+    top:300px;
+    left:700px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    background-color:#D5B25F;
+    z-index: 1;
+}
+
+.fruit{
+    position:relative;
+    left:665px;
+    top:81px;
+}
+div img {
+    width:210px;
+    z-index: -1;
+
+}
+
+.vertical:first-child{
+    width:3px ;
+    height:79px;
+    border:1px dashed black;
+    position:absolute;
+    left:10px;
+}
+
+.vertical:nth-child(2){
+    width:3px ;
+    height:91px;
+    border:1px dashed black;
+    position:absolute;
+    left:26px;
+}
+.vertical:nth-child(3){
+    width:3px ;
+    height:96px;
+    border:1px dashed black;
+    position:absolute;
+    left:41px;
+}
+.vertical:nth-child(4){
+    width:3px ;
+    height:96px;
+    border:1px dashed black;
+    position:absolute;
+    left:56px;
+}
+.vertical:nth-child(5){
+    width:3px ;
+    height:95px;
+    border:1px dashed black;
+    position:absolute;
+    left:71px;
+}
+.vertical:nth-child(6){
+    width:4px ;
+    height:95px;
+    border:1px dashed black;
+    position:absolute;
+    left:86px;
+}
+.vertical:nth-child(7){
+    width:3px ;
+    height:93px;
+    border:1px dashed black;
+    position:absolute;
+    left:101px;
+}
+.vertical:nth-child(8){
+    width:3px ;
+    height:91px;
+    border:1px dashed black;
+    position:absolute;
+    left:116px;
+}
+.vertical:last-child{
+    width:3px ;
+    height:83px;
+    border:1px dashed black;
+    position:absolute;
+    left:131px;
+}
+
