@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+i:first-child {
+    margin-left: 100px;
+
+}
+
+/* i:hover{
+
+    /* transform: rotateZ(720deg);
+    transition-duration: 5s;
+    
+
+    /* transform: scale(1); */
+
+/* transform:skew(120deg); */
+/* transform:translateX(200px);
+    transition-duration: 5s;
+    transition-timing-function: ease-out; 
+}
+*/
+i:nth-child(2) {
+
+    margin-top: 30px;
+}
+
+section {
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+
+}
+
+section:hover {
+    width: 400px;
+    transition: all 4s 1s;
+}
+
+div {
+    background-color: black;
+    padding-top: 40px;
+    border-bottom: 5px solid;
+    margin-top: 50px;
+    background-size: inherit 100%;
+}
+
+div i {
+    transform: translateX(-80px)
+}
+
+.car1:hover {
+    transform: translate(1300px);
+    transition: all 5s 0s;
+    transition-timing-function: linear;
+}
+
+.car2:hover {
+    transform: translate(1300px);
+    transition: all 5s 0s;
+    transition-timing-function: steps(10);
+    /* transition-timing-function: step-start;
+    transition-timing-function: step-end; */
+}
+
+.car3:hover {
+    transform: translate(1300px);
+    transition: all 5s 0s;
+    transition-timing-function: ease-in;
+}
+
+.car4:hover {
+    transform: translate(1300px);
+    transition: all 5s 0s;
+    transition-timing-function: ease-out;
+}
+
+.car5:hover {
+    transform: translate(1300px);
+    transition: all 5s 0s;
+    transition-timing-function: ease-in-out;
+}
