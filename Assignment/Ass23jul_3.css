@@ -1,0 +1,36 @@
+
+.frame {
+    position: relative;
+    top: 180px;
+    left: 600px;
+    width: 400px;
+    height: 400px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    background: #57D895;
+}
+
+.content{
+    position: absolute;
+    top:40%;
+    left:20%;
+    background-color: inherit;
+    width: 220px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    letter-spacing: 3px;
+    border:2px solid white;
+    border-radius:30px;
+    cursor: pointer;
+    color:white;
+}
+
+.content:hover{
+    background:#06f278;
+    transition: ease-in;
+    transition-duration: 0.3s;
+}

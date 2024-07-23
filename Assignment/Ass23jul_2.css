@@ -1,0 +1,37 @@
+.frame {
+    position: relative;
+    top: 180px;
+    left: 600px;
+    width: 400px;
+    height: 400px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    background: #2C3E50;
+}
+
+.content{
+    position: absolute;
+    top:40%;
+    left:30%;
+    background-color: white;
+    width: 150px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    letter-spacing: 2px;
+    box-shadow: 12px 12px 0px blueviolet;
+    cursor: pointer;
+}
+
+.content:hover{
+    top:42%;
+    left:32%;
+    box-shadow: -12px -12px 0px white;
+    background-color: blueviolet;
+    color:white;
+    transition-duration: 0.2s;
+    /* transition-timing-function: ease-in; */
+}

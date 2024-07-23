@@ -1,0 +1,80 @@
+.frame {
+    position: relative;
+    top: 180px;
+    left: 600px;
+    width: 400px;
+    height: 400px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    background: #75C1E8;
+}
+
+.sun {
+    position: absolute;
+    height: 64px;
+    width: 64px;
+    top: 40px;
+    left: 52px;
+    background: #FFD93C;
+    border-radius: 50%;
+
+}
+
+.cloud-big {
+    position: absolute;
+    top: 190px;
+    left: 270px;
+
+
+}
+
+.cloud-big img {
+
+    width: 130px;
+}
+
+.cloud-big img:hover {
+
+    transform: translateX(-390px);
+    transition-timing-function: linear;
+    transition-duration: 10s;
+}
+
+.cloud-mid img {
+
+    width: 80px;
+}
+
+.cloud-mid {
+    position: absolute;
+    top: 120px;
+    left: 250px;
+
+}
+
+.cloud-mid img:hover {
+
+    transform: translateX(-330px);
+    transition-timing-function: linear;
+    transition-duration: 10s;
+}
+
+.cloud-small img {
+
+    width: 40px;
+}
+
+.cloud-small {
+    position: absolute;
+    top: 90px;
+    left: 330px;
+
+}
+
+.cloud-small img:hover {
+
+    transform: translateX(-370px);
+    transition-timing-function: linear;
+    transition-duration: 10s;
+}
