@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    /* height: 100vh; */
+    border: 2px solid tomato;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+section div {
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    border: 2px solid tomato;
+    font-size: 25px;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
