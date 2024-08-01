@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(68, 68, 231);
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+section h1 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: cursive;
+}
+
+.divContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+.divContainer div:nth-child(2) {
+    background-color: none !important;
+}
+
+.contentbox1 {
+    width: 250px;
+    height: 215px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin: 0px 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+
+}
+
+.contentbox2 {
+    width: 250px;
+    height: 215px;
+    border-radius: 10px;
+    color: white;
+    margin: 0px 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+a {
+    color: white;
+}
+
+.contentbox3 {
+    width: 250px;
+    height: 215px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin: 0px 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.contentbox4 {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+
+    margin: 0px 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url('https://www.shutterstock.com/image-photo/portrait-smiling-handsome-business-man-600nw-1190324164.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.contentbox5 {
+    width: 250px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin: 0px 28px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+
+}
+
+.contentbox6 {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin: 0px 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url('https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?cs=srgb&dl=pexels-pixabay-356056.jpg&fm=jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.icon {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    background-color: rgb(68, 68, 231);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
