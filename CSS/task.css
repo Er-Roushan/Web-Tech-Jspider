@@ -135,11 +135,34 @@ article {
     left: 105%;
 }
 
-
-
-article div:hover .tooltiptext {
+article div:nth-child(2):hover .tooltiptext {
     visibility: visible;
 }
+
+.tooltiptext-user-plus {
+    visibility: hidden;
+    width: 170px;
+    height: 220px;
+    background-color: white;
+    color: black;
+    font-family: cursive;
+
+    border-radius: 6px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 175px;
+    left: 105%;
+}
+
+
+
+
 
 article div {
     width: 100%;

@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 500px;
+    height: 500px;
+    background-color: wheat;
+    border: 1px solid;
+    display: grid;
+    grid-template-areas: "A1 A2 A3 A4 A4"
+        "A1 A2 A3 A7 A8"
+        "A5 A6 A3 A7 A8"
+        "A5 A9 A10 A10 A8"
+        ;
+    gap: 5px;
+    padding: 5px;
+}
+
+.box1 {
+    grid-area: A1;
+    border: 1px solid;
+    background-color: blue;
+}
+
+.box2 {
+    grid-area: A2;
+    border: 1px solid;
+    background-color: green;
+}
+
+.box3 {
+    grid-area: A3;
+    border: 1px solid;
+    background-color: skyblue;
+}
+
+.box4 {
+    grid-area: A4;
+    border: 1px solid;
+    background-color: tomato;
+}
+
+.box5 {
+    grid-area: A5;
+    border: 1px solid;
+    background-color: black;
+}
+
+.box6 {
+    grid-area: A6;
+    border: 1px solid;
+    background-color: white;
+}
+
+.box7 {
+    grid-area: A7;
+    border: 1px solid;
+    background-color: red;
+}
+
+.box8 {
+    grid-area: A8;
+    border: 1px solid;
+    background-color: yellowgreen;
+}
+
+.box9 {
+    grid-area: A9;
+    border: 1px solid;
+    background-color: orange;
+}
+
+.box10 {
+    grid-area: A10;
+    border: 1px solid;
+    background-color: orchid;
+}
+
