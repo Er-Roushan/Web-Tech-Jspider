@@ -1,0 +1,83 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+section{
+    height: 500px;
+    width: 500px;
+    border: 5px solid lightgreen;
+    border-radius: 10px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding-left: 100px;
+    
+}
+
+.ball{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to right bottom, red, orange, red);
+    border-radius:50% ;
+    /* transform: rotate(720deg);
+    transition: all 10s 0s linear; */
+    animation-name: ball;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/* @keyframes ball {
+    from{
+        transform:rotate(0deg);
+       
+    }
+    to {
+        transform:rotate(720deg);
+        
+    }
+} */
+@keyframes ball {
+    
+    0%{
+        top:0px;
+        left:-10px;
+        transform: rotate(0deg);
+        
+    }
+    25% {
+         left:300px;
+        top:0;
+        transform:rotate(120deg);         
+        
+    }
+    50%{
+        left:300px;
+        top:370px;
+        transform:rotate(300deg) ;
+        
+    }
+    75%{
+        left:-70px;
+        top:370px;
+        transform:rotate(300deg);
+        
+    }
+    100%{
+        left:-70deg;
+        top:0px;
+        transform: rotate(400deg);
+    }
+    
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    background-color: lightgreen;
+    border-radius: 20px;
+}
