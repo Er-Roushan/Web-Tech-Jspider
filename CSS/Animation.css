@@ -10,11 +10,12 @@ section{
     border: 5px solid lightgreen;
     border-radius: 10px;
     margin: 100px auto;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
+    
+    justify-content: center; */
     padding-left: 100px;
+    padding-top: 60px;
     
 }
 
@@ -23,12 +24,15 @@ section{
     height: 50px;
     background: linear-gradient(to right bottom, red, orange, red);
     border-radius:50% ;
-    /* transform: rotate(720deg);
-    transition: all 10s 0s linear; */
+    position: relative;
+    left:-47px;
     animation-name: ball;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
+    /* transition-delay: 2s; */
+    animation-direction: alternate;
     animation-timing-function: linear;
+    
 }
 
 /* @keyframes ball {
@@ -45,32 +49,32 @@ section{
     
     0%{
         top:0px;
-        left:-10px;
+        left:-20px;
         transform: rotate(0deg);
         
     }
     25% {
-         left:300px;
+         left:295px;
         top:0;
         transform:rotate(120deg);         
         
     }
     50%{
-        left:300px;
-        top:370px;
-        transform:rotate(300deg) ;
+        left:295px;
+        top:345px;
+        transform:rotate(360deg) ;
         
     }
     75%{
-        left:-70px;
-        top:370px;
-        transform:rotate(300deg);
+        left:-47px;
+        top:345px;
+        transform:rotate(480deg);
         
     }
     100%{
-        left:-70deg;
+        left:-47px;
         top:0px;
-        transform: rotate(400deg);
+        transform: rotate(570deg);
     }
     
 }
@@ -79,5 +83,5 @@ section{
     width: 300px;
     height: 300px;
     background-color: lightgreen;
-    border-radius: 20px;
+    border-radius: 5px;
 }
