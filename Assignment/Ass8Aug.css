@@ -1,0 +1,114 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #212428;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.mySkill{
+     width: 110px;
+    height: 45px;
+    border-bottom: 3px solid red;
+    color: white;
+    font-size: 25px;
+    
+}
+
+.cardSecFirst{
+    width:60%;
+    min-height: 280px;
+    /* border:1px solid yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    /* flex-wrap: wrap; */ 
+
+}
+.cardSecSecond{
+    width:60%;
+    min-height: 280px;
+    /* border:1px solid orange; */
+    display:flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+
+}
+
+.cardSecFirst div {
+    
+    width: 30%;
+    /* border:1px solid turquoise; */
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.cardSecSecond div {
+    
+    width: 30%;
+    /* border:1px solid turquoise; */
+    color:white;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center; 
+}
+
+.icon {
+    width:50px;
+    height: 80px;
+    /* background-color: white; */
+    border-radius: 50%;
+}
+
+.htmllogo {
+    background-image: url("../images/html2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.csslogo {
+    background-image: url("../images/css.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.jslogo {
+    background-image: url("../images/js.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.pylogo {
+    background-image: url("../images/py.webp");
+    background-size: cover;
+    background-position: center;
+}
+.saaslogo {
+    background-image: url("../images/saas1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.mysqllogo {
+    background-image: url("../images/mysql.png");
+    background-size: cover;
+    background-position: center;
+}
+
+div p:nth-child(3){
+    color:grey;
+}
