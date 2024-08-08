@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: bisque;
+    width: 100%;
+    height: 100vh;
+    z-index: -999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FirstContent {
+    width: 90%;
+    height: 90vh;
+    background-color: #212428;
+    box-shadow: 0px 0px 10px;
+    /* border: 2px solid tomato; */
+
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    /* border: 2px solid red; */
+    color: grey;
+    font-family: cursive;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.logo {
+    width: 110px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    /* border:1px solid tomato; */
+
+}
+
+.logoImg {
+    width: 50px;
+    height: 50px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/022/458/164/small/modelling-snapshots-narcissistic-self-confident-tanned-attractive-handsome-man-in-classic-suit-jacket-looks-at-camera-posing-isolated-in-over-black-studio-background-fashion-offer-copy-space-for-ad-photo.jpg");
+    /* background-position: center; */
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+
+    flex-wrap: wrap;
+
+
+}
+
+nav ul li {
+    margin-left: 25px;
+    font-size: 12px;
+}
+
+nav ul li:hover {
+    color: white;
+}
+
+.IntroPlusImg {
+    margin-top: 1px;
+    width: 100%;
+    height: 79vh;
+    /* border: 1px solid yellow; */
+    display: flex;
+}
+
+.intro {
+    /* border: 2px solid green; */
+    width: 60%;
+    color: grey;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.intro p:nth-child(2) {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+.myImg {
+    /* border: 2px solid skyblue; */
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.myImg img {
+    width: 300px
+}
