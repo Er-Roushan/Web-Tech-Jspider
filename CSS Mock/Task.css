@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    background-color:whitesmoke;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.myTeam{
+    /* width: 140px; */
+   height: 45px;
+   font-size: 30px;
+   font-weight: bolder;
+   margin-bottom: 20px;
+   
+}
+
+.Headline{
+    text-align: center;
+    color: gray;
+}
+
+.cardHolder{
+    width:80%;
+    /* border:2px solid red; */
+    min-height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top:30px;
+    height: 400px;
+    align-items: center;
+}
+
+.card {
+    width:22%;
+    height: 300px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:70px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    justify-content: space-around;
+    box-shadow: 3px 3px 6px tomato;
+    position: relative;
+    border-radius: 5px;
+
+
+}
+
+.bgimg {
+    width: 80px;
+    height: 80px;
+    border:2px solid dodgerblue;
+    border-radius:50%;
+    position: absolute;
+    top:-20px;
+    z-index: 999;
+    background-image: url(../images/py.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.cardHolder p:nth-child(4){
+    /* margin-top: 20px; */
+    text-align: center;
+    /* text-align: justify; */
+    
+}
+
+/* .cardHolder p:nth-child(3){
+  
+    
+} */
+
+.sociallinks {
+    display: flex;
+    width: 90%;
+    height: 50px;
+    /* border:2px solid tomato; */
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: tomato;
+    color:white;
+}

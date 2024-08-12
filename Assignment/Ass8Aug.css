@@ -4,7 +4,15 @@
     box-sizing: border-box;
     font-family: cursive;
 }
-section {
+
+/* .containerHolder{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.mainContainer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -15,12 +23,13 @@ section {
     align-items: center;
     flex-wrap: wrap;
     
+    
 }
 
 .mySkill{
      width: 110px;
     height: 45px;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid tomato;
     color: white;
     font-size: 25px;
     
