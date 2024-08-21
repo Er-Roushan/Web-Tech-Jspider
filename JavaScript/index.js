@@ -11,3 +11,13 @@ document.writeln("helloji");
 // window.prompt("What is your age: ")
 window.alert("Heavy Rain");
 window.confirm("Are you sure.");
+
+
+
+function myFunc(a, b){
+    console.log(a+b);
+    
+}
+
+myFunc(2,4);
+myFunc(2,4);
