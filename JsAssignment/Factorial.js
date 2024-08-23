@@ -1,4 +1,4 @@
-var number  = prompt("Enter a number");
+var number  = prompt("Enter a number to get it's factorial:");
 
 var fact = 1;
 
