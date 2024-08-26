@@ -107,3 +107,24 @@ function fcparent(){
 
 fcparent()()();
 
+
+//Generator function
+
+function* genFunc(a){
+
+    yield a + 20;
+    yield a + 30;
+    yield a + 40;
+    yield a + 50;
+
+
+}
+
+//we can use multiple word but we can't use more than one return;
+let result = genFunc(10);
+console.log(result.next().value);
+console.log(result.next().value);
+console.log(result.next().value);
+console.log(result.next().value);
+console.log(result.next().value);
+console.log(result.next().value);
