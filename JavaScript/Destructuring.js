@@ -62,4 +62,4 @@ let arr3 = [
   },
 ];
 
-let [aa, bb, { TempName, [{ tfn, tbk, tcloud }, [...rest]]}] = [...arr3];
+// let [aa, bb, { TempName, [{ tfn, tbk, tcloud }, [...rest]]}] = [...arr3];
