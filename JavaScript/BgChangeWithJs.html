@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .firstContainer {
+        width: 500px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid dodgerblue;
+        border-radius: 5px;
+        z-index: 1;
+      }
+      .secondContainer {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid tomato;
+        z-index: 2;
+        background-color: white;
+      }
+
+      .container {
+        width: 100px;
+        height: 100px;
+        border: 2px solid blueviolet;
+        border-radius: 5px;
+        z-index: 3;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="firstContainer" id="outerCon">
+      <div class="secondContainer" id="firstInnerCon">
+        <div class="container" id="secondInnerCon"></div>
+      </div>
+    </div>
+    <script src="BgChangeWithJs.js"></script>
+  </body>
+</html>

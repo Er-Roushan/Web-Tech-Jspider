@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="container"></section>
+    <section class="container"></section>
+    <section class="container"></section>
+
+    <h1>Hello i am inner text</h1>
+
+    <h3>hi i for remove op</h3>
+
+    <section id="trail">
+      Hi i'm roushan
+      <p>djfisf</p>
+    </section>
+    <!--Write the difference between htmlcollection and nodelist-->
+  </body>
+  <script>
+    // const cont1 = document.getElementsByClassName("container");
+    // const cont2 = document.querySelector("section");
+    // const cont3 = document.querySelectorAll("section");
+
+    // console.log(cont1);
+    // console.log(cont2);
+    // console.log(cont3);
+
+    // const h1 = document.createElement("h1");
+    // h1.innerText = "Hello i'm h1 from Console";
+    // console.log(h1);
+
+    let h1 = document.querySelector("h1");
+    h1.setAttribute("class", "para");
+    console.log(h1.innerText);
+    h1.innerHTML = "hello";
+    console.log(h1);
+
+    let p = document.createElement("p");
+    p.innerText = "Hello World";
+    p.setAttribute("id", "para");
+    console.log(p);
+
+    document.body.append(h1, p);
+
+    console.log(document.getElementById("trail").innerHTML);
+    // document.remove(document.querySelector("h3"));
+  </script>
+</html>

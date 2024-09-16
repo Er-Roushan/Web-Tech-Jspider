@@ -81,12 +81,16 @@ nav div button:hover {
   width: 40%;
   height: 450px;
   border: 2px solid tomato;
+  background-image: url("c1.jpg");
+  background-size: cover;
 }
 
 .det2 {
   width: 40%;
   height: 450px;
   border: 2px solid tomato;
+  background-image: url("c2.jpg");
+  background-size: cover;
 }
 
 footer {
